@@ -6,19 +6,19 @@
 #define SERIAL_MAX_PAYLOAD_SIZE 512
 
 #ifndef SERIAL_TX_PIN
-#define SERIAL_TX_PIN 28
+#define SERIAL_TX_PIN 12
 #endif
 
 #ifndef SERIAL_RX_PIN
-#define SERIAL_RX_PIN 4
+#define SERIAL_RX_PIN 13
 #endif
 
 #ifndef SERIAL_CTS_PIN
-#define SERIAL_CTS_PIN 14
+#define SERIAL_CTS_PIN 26
 #endif
 
 #ifndef SERIAL_RTS_PIN
-#define SERIAL_RTS_PIN 8
+#define SERIAL_RTS_PIN 27
 #endif
 
 typedef bool (*msg_recv_cb_t)(const uint8_t* data, uint16_t len);
